@@ -17,6 +17,10 @@ time sumtime (time a, time b){
     int h, m, s;
     h = a.hours+b.hours;
     m = a.minutes+b.minutes;
+    if (m>=60){
+        h++;
+        m = m - 59;
+    }
     s = a.seconds+b.seconds;
     time c(h,m,s);
     return c;
