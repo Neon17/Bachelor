@@ -1,0 +1,82 @@
+.navbar {
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px black;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    align-items: center;
+    overflow: hidden;
+    font-size: 1.5rem;
+}
+
+.navbar ul li:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    margin-top: 15px;
+    margin-left: 5px;
+    display: block;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(42, 43, 43);
+}
+
+.sidebaritem {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    width: 100%;
+    color: white;
+    height: 60px;
+    font-style: italic;
+}
+
+.maincontent {
+    width: 85%;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-color: aqua;
+    height: calc(100vh-100px-5px-15px);
+}
+
+.sidebaritem:hover {
+    background-color: blanchedalmond;
+    color: black;
+    cursor: pointer;
+}
+.maincontent {
+    padding: 1% 1% 1% 1%;
+}
+form {
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.formelements{
+   width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    padding: 1% 1% 1% 1%;
+}
